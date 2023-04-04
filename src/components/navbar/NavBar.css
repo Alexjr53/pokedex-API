@@ -1,0 +1,17 @@
+.navbar{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar p{
+  font-family: secondary-font, sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-img{
+  width: 160px;
+}

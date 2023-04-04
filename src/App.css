@@ -1,0 +1,30 @@
+html{
+  background: url(../public/images/background.jpg) no-repeat;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: "primary-font";
+  src: url(../public/fonts/Ketchum.otf);
+}
+
+@font-face {
+  font-family: "secondary-font";
+  src: url(../public/fonts/Molot.otf);
+}
+
+*{
+  margin: 0;
+}
+
+.not-found-text{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 20px;
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.App{
+  text-align: center;
+}
