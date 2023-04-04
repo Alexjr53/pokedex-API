@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Projeto Pokédex API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi inicializado com create react app, que consome a [PokéAPI](https://pokeapi.co)
 
-## Available Scripts
+[![NPM](https://img.shields.io/bower/l/MI)](https://github.com/Alexjr53/pokedex-api/blob/master/license)
 
-In the project directory, you can run:
+## Índice
+
+- [Visão geral](#visão-geral)
+  - [Descrição](#descrição)
+  - [Screenshot](#screenshot)
+  - [Como usar](#como-usar)
+  - [Links](#links)
+- [Meu processo](#meu-processo)
+  - [Tecnologias utilizadas](#tecnologias-utilizadas)
+  - [Desenvolvimento](#desenvolvimento)
+- [Autor](#autor)
+
+## Visão geral
+
+### Descrição
+
+- O projeto "Pokedex API" é uma aplicação web desenvolvida em React que utiliza a API PokéAPI para buscar informações sobre pokémons e exibi-las na tela. A aplicação permite que o usuário pesquise por um Pokémon específico, navegando através de uma lista. Cada Pokémon exibe informações básicas, como nome, número, tipo e imagem.  O aplicativo também apresenta uma opção de favoritos, na qual o usuário pode salvar seus Pokémons favoritos 
+
+### Screenshot
+
+#### Desktop
+![create react app](./src/design/desktop.gif)
+
+#### Mobile
+![create react app](./src/design/mobile.png)
+
+### Como usar
+
+No diretório do projeto, você pode executar:
+
+### `npm install`
+Executa a instalação dos pacotes dependentes do projeto
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Executa o aplicativo no modo de desenvolvimento. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Abra http://localhost:3000 para visualizá-lo no navegador.
+
+A página será recarregada se você fizer edições. Você também verá erros de lint no console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inicia o executor de teste no modo de observação interativo. Consulte a seção sobre como [executar testes](https://create-react-app.dev/docs/running-tests/) para obter mais informações.
 
 ### `npm run build`
+Cria o aplicativo para produção na build pasta. Ele empacota corretamente o React no modo de produção e otimiza a compilação para obter o melhor desempenho.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A compilação é minificada e os nomes dos arquivos incluem os hashes. Se necessário, nomes de classe e nomes de função podem ser ativados para fins de criação de perfil. Consulte a seção de [compilação de produção](https://create-react-app.dev/docs/production-build/) para obter mais informações.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Seu aplicativo está pronto para ser implantado! Consulte a seção sobre [implantação](https://create-react-app.dev/docs/deployment/) para obter mais informações sobre como implantar seu aplicativo em provedores de hospedagem populares.
 
 ### `npm run eject`
+Nota: esta é uma operação unidirecional. Uma vez que você eject, você não pode voltar atrás!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Se você não estiver satisfeito com a ferramenta de compilação e as opções de configuração, poderá fazê-lo ejecta qualquer momento. Este comando removerá a dependência de compilação única do seu projeto.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc.) para o seu projeto como dependências em package.json. Tecnicamente, a distinção entre dependências e dependências de desenvolvimento é bastante arbitrária para aplicativos front-end que produzem pacotes estáticos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Além disso, costumava causar problemas com algumas plataformas de hospedagem que não instalavam dependências de desenvolvimento (e, portanto, não conseguiam compilar o projeto no servidor ou testá-lo logo antes da implantação). Você é livre para reorganizar suas dependências package.json como achar melhor.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Todos os comandos, exceto eject, ainda funcionarão, mas eles apontarão para os scripts copiados para que você possa ajustá-los. Neste ponto você está por conta própria.
 
-## Learn More
+Você não precisa nunca usar eject. O conjunto de recursos com curadoria é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que esta ferramenta não seria útil se você não pudesse personalizá-la quando estivesse pronto para ela.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Links
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- URL da documentação: [create react app](https://create-react-app.dev/docs/available-scripts#npm-start)
 
-### Code Splitting
+- URL da página: [Pokedex API](https://alexjr53.github.io/pokedex-api/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- URL do Repositório: [Pokedex API](https://github.com/Alexjr53/pokedex-api)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Meu processo
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Tecnologias utilizadas
 
-### Advanced Configuration
+- HTML
+- CSS
+- Javascript
+- React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Desenvolvimento
 
-### Deployment
+#### Funcionalidades Futuras
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Exibição de detalhes de cada Pokémon.<br>
+    Em breve, será adicionada uma nova funcionalidade que permitirá ao usuário ver detalhes adicionais de cada Pokémon ao clicar em sua imagem na lista. Os detalhes adicionais incluirão a descrição do Pokémon, bem como seu tipo.
 
-### `npm run build` fails to minify
+- Pesquisa avançada de Pokémon<br>
+Também será adicionada uma nova funcionalidade que permitirá ao usuário realizar uma pesquisa avançada de Pokémon. A pesquisa avançada incluirá opções para filtrar os Pokémons por tipo, habilidades. O resultado da pesquisa será exibido em uma nova página, onde o usuário poderá visualizar os Pokémons que correspondem aos critérios de pesquisa.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Visualização de Pokémons favoritos<br>
+permitirá ao usuário visualizar os Pokémons que foram salvos como favoritos. O usuário poderá acessar uma lista de Pokémons favoritos que será armazenada localmente e poderá visualizar os detalhes de cada um desses Pokémons.
+
+## Autor
+Alexsandro rosa junior
+
+- GitHub - [Alexjr53](https://github.com/Alexjr53)
