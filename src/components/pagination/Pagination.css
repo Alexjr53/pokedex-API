@@ -4,3 +4,11 @@
     flex-direction: row;
     align-items: center;
   }
+
+  .pagination-container button{
+    cursor: pointer;
+  }
+
+  .pagination-button:disabled {
+    cursor: default;
+  }

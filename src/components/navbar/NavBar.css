@@ -4,11 +4,12 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  
 }
 
 .navbar p{
   font-family: secondary-font, sans-serif;
-  color: white;
+  color: rgb(49, 49, 49);
   font-size: 20px;
 }
 

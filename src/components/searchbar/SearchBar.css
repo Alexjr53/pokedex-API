@@ -25,4 +25,10 @@
     height: 44px;
     color: white;
     padding: 10px 12px;
+    cursor: pointer;
+    transition: 0.1s ease;
+  }
+
+  .searchbar-btn button:active{
+    opacity: 0.6;
   }
